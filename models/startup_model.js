@@ -8,6 +8,7 @@ var bcrypt       = require('bcrypt-nodejs');
 var startup_schema = new mongoose.Schema({
     type: "Startup", 
     name:{ type: String, required: true},
+    role: String,
     domain: { type: String, required: false},
     description: { type: String, required: false}
 
@@ -20,8 +21,8 @@ var startup_schema = new mongoose.Schema({
     Growth and Finances
     Online Buzz (Google Trends API or Web Scraper)
     Past Accelerators
-
-
+    IPO? 
+    
      */
     
 });
