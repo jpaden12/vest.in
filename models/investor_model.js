@@ -6,6 +6,7 @@ var mongoose     = node_restful.mongoose;
 var bcrypt       = require('bcrypt-nodejs');
 
 var investor_model = new mongoose.Schema({
+    type: "Investor",
     First_Name: { type: String, required: true},
     Last_Name: { type: String, required: true},
     Title: String,

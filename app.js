@@ -1,3 +1,5 @@
+
+//Node modules 
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -7,8 +9,11 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var bcrypt = require('bcrypt-nodejs');
 var port = process.env.PORT || 3000;
+
+//Routes and Database Configuration
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var restful = require('node-restful');
 var configDB = require('./config/database.js');
 var app = express();
 
