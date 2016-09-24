@@ -4,7 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+var port = process.env.PORT || 3000;
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -57,4 +57,5 @@ app.use(function(err, req, res, next) {
 });
 
 
-module.exports = app;
+app.listen(port)
+console.log('The magic happens on port ' + port);
