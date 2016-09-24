@@ -4,6 +4,10 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var mongoose = require('mongoose');
+var bcrypt = require('bcrypt-nodejs');
+var port   = process.env.PORT || 8080; 
+
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
