@@ -20,8 +20,8 @@ var startup_schema = new mongoose.Schema({
     Growth and Finances
     Online Buzz (Google Trends API or Web Scraper)
     Past Accelerators
-
-
+    IPO? 
+    
      */
     
 });
