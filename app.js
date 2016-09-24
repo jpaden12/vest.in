@@ -12,6 +12,7 @@ var port = process.env.PORT || 3000;
 
 //Routes and Database Configuration
 var routes = require('./routes/index');
+var db_routes = require('./routes/db_routes.js'); 
 var users = require('./routes/users');
 var restful = require('node-restful');
 var configDB = require('./config/database.js');
