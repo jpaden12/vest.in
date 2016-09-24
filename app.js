@@ -4,15 +4,9 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-<<<<<<< HEAD
 var mongoose = require('mongoose');
 var bcrypt = require('bcrypt-nodejs');
-var port   = process.env.PORT || 8080; 
-
-
-=======
 var port = process.env.PORT || 3000;
->>>>>>> origin/master
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -65,5 +59,5 @@ app.use(function(err, req, res, next) {
 });
 
 
-app.listen(port)
+app.listen(port); 
 console.log('The magic happens on port ' + port);
