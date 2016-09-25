@@ -76,6 +76,8 @@ h1 {
 }
 .login-form {
     margin: 1em 0 2.5em;
+    border-style:solid;
+    border-color:white;
 }
 .signin-form input[type="text"], .signin-form input[type="password"] {
     width: 92%;
@@ -83,21 +85,19 @@ h1 {
     font-size: 0.8em;
     margin: 1em 0;
     outline: none;
-    color: dodgerblue;
+    color:white;
     font-weight: bolder;
     border: black;
     border-bottom: 2px solid #fff;
 	letter-spacing: 1px;
 	text-align:center;
-    border-style: solid;
-    border-color: white;
+    background-color:royalblue;
+    opacity: .7;
 }
 .signin-form input[type="text"] {
-    background: none;
     display: block;
 }
 .signin-form input[type="password"] {
-     background: none;
     display: block;
 }
 ::-webkit-input-placeholder{
