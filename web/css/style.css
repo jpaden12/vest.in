@@ -83,11 +83,14 @@ h1 {
     font-size: 0.8em;
     margin: 1em 0;
     outline: none;
-    color: #FFF;
-    border: none;
+    color: dodgerblue;
+    font-weight: bolder;
+    border: black;
     border-bottom: 2px solid #fff;
 	letter-spacing: 1px;
 	text-align:center;
+    border-style: solid;
+    border-color: white;
 }
 .signin-form input[type="text"] {
     background: none;
@@ -108,7 +111,7 @@ h1 {
     font-size: 1em;
     margin-top: 1em;
     border: none;
-    color: #fff;
+    color: white;
     cursor: pointer;
     background: #0b4379;
     box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
@@ -116,7 +119,7 @@ h1 {
 	
 }
 .signin-form input[type="submit"]:hover {
-    color: #fff;
+    color: black;
     background: #002242;
     transition: .5s all;
 	-webkit-transition: .5s all;
