@@ -13,13 +13,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Register Login Widget template Responsive, Login form web template,Flat Pricing tables,Flat Drop downs  Sign up Web Templates, Flat Web Templates, Login Signup Responsive web template, SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- Custom Theme files -->
+
+<script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+<script src="../angular_app.js"></script>
+	<!-- Custom Theme files -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!--web-fonts-->
 <link href='//fonts.googleapis.com/css?family=Jura:400,300,500,600' rel='stylesheet' type='text/css'>
 <!--//web-fonts-->
 </head>
-<body>
+<body ng-app="app">
 	<h1>VestIn</h1>
 	<!-- main -->
 	<div class="main">
@@ -36,7 +40,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<input type="text" name="email" placeholder="E-mail" required="">
 						<input type="password" name="password" placeholder="Password" required="">
 						<div class="tp">
+							<a href="http://angeltoolbox.com/news">
 							<input type="submit" value="LOGIN NOW">
+							</a>	
 						</div>
 					</form>
 				</div>
@@ -58,7 +64,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<input type="text" name="name" placeholder="Username" required="">
 						<input type="password" name="password" placeholder="Password" required="">
 						<input type="password" name="password" placeholder="Confirm Password" required="">
-						<input type="submit" value="REGISTER">
+						<a href="angeltoolbox.com"><input type="submit" value="REGISTER"></a>
 					</form>
 				</div>
 				<p><a href="#"> By clicking register, I agree to your terms</a></p>
