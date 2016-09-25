@@ -1,0 +1,18 @@
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 115px;
+    text-align: center;
+    color: #008ae6;
+    padding-top: 100px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+}

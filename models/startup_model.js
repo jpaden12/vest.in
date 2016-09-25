@@ -6,11 +6,11 @@ var mongoose     = node_restful.mongoose;
 var bcrypt       = require('bcrypt-nodejs');
 
 var startup_schema = new mongoose.Schema({
-    type: "Startup", 
-    name:{ type: String, required: true},
+    Role: String,
+    name:{ type: String},
     role: String,
-    domain: { type: String, required: false},
-    description: { type: String, required: false}
+    domain: { type: String},
+    description: { type: String }
 
     /* Data points needed
     Rating (Created from API data and algorithm)
@@ -21,8 +21,8 @@ var startup_schema = new mongoose.Schema({
     Growth and Finances
     Online Buzz (Google Trends API or Web Scraper)
     Past Accelerators
-    IPO? 
-    
+    IPO?
      */
-    
 });
+
+module.exports = node_restful.model('Startup', startup_schema);
